@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I-I",
+    "- -",
+    " T "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "-": {
+      "item": "minecraft:chain"
+    },
+    "T": {
+      "item": "testmod:tumbled_tanzanite"
+    }
+  },
+  "result": {
+    "item": "testmod:tanzanite_necklace",
+    "count": 1
+  }
+}

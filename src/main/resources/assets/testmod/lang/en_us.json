@@ -1,6 +1,7 @@
 {
   "item.testmod.raw_tanzanite": "Raw Tanzanite",
   "item.testmod.tumbled_tanzanite": "Tumbled Tanzanite",
+  "item.testmod.tanzanite_necklace": "Tanzanite Necklace",
   "itemgroup.gems": "Gems",
   "block.testmod.ds_raw_tanzanite": "Deepslate Raw Tanzanite Ore",
   "block.testmod.tanzanite_block": "Tumbled Tanzanite Block"

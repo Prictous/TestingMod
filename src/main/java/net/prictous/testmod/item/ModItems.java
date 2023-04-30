@@ -15,6 +15,8 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item TUMBLED_TANZANITE = registerItem("tumbled_tanzanite",
             new Item(new FabricItemSettings()));
+    public static final Item TANZANITE_NECKLACE = registerItem("tanzanite_necklace",
+            new Item(new FabricItemSettings()));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(TestMod.MOD_ID, name), item);
     }
@@ -22,6 +24,7 @@ public class ModItems {
     public static void addItemsToItemGroup(){
         addToItemGroup(ModItemGroup.GEMS, RAW_TANZANITE);
         addToItemGroup(ModItemGroup.GEMS, TUMBLED_TANZANITE);
+        addToItemGroup(ModItemGroup.GEMS, TANZANITE_NECKLACE);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {
