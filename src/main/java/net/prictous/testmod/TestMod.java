@@ -1,6 +1,7 @@
 package net.prictous.testmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.prictous.testmod.block.ModBlocks;
 import net.prictous.testmod.item.ModItemGroup;
 import net.prictous.testmod.item.ModItems;
 import org.slf4j.Logger;
@@ -14,6 +15,6 @@ public class TestMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
-
+		ModBlocks.registerModBlocks();
 	}
 }

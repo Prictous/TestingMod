@@ -12,7 +12,7 @@ public class ModItemGroup {
 
     public static void registerItemGroups() {
         GEMS = FabricItemGroup.builder(new Identifier(TestMod.MOD_ID, "gemsgroup"))
-                .displayName(Text.translatable("Gems"))
+                .displayName(Text.translatable("itemgroup.gems"))
                 .icon(() -> new ItemStack(ModItems.RAW_TANZANITE)).build();
     }
 }
