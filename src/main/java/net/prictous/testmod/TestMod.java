@@ -2,6 +2,7 @@ package net.prictous.testmod;
 
 import net.fabricmc.api.ModInitializer;
 import net.prictous.testmod.block.ModBlocks;
+import net.prictous.testmod.data.ModWorldGenerator;
 import net.prictous.testmod.item.ModItemGroup;
 import net.prictous.testmod.item.ModItems;
 import org.slf4j.Logger;

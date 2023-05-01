@@ -17,7 +17,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-        offerStonecuttingRecipe(exporter, RecipeCategory.MISC,ModItems.RAW_TANZANITE, ModItems.TUMBLED_TANZANITE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC,ModItems.TUMBLED_TANZANITE, ModItems.RAW_TANZANITE);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.TUMBLED_TANZANITE, RecipeCategory.DECORATIONS,
                 ModBlocks.TANZANITE_BLOCK);
     }

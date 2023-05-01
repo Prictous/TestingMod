@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "testmod:raw_tanzanite"
   },
-  "result": "testmod:tumbled_tanzanite",
-  "count": 1
+  "result": "testmod:tumbled_tanzanite"
 }

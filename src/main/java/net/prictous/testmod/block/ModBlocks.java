@@ -19,7 +19,7 @@ import net.prictous.testmod.item.ModItemGroup;
 public class ModBlocks {
 
     public static final Block DS_RAW_TANZANITE_ORE = registerBlock("ds_raw_tanzanite",
-        new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(),
+        new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(2.0f).requiresTool(),
                 UniformIntProvider.create(3, 7)), ModItemGroup.GEMS);
     public static final Block TANZANITE_BLOCK = registerBlock("tanzanite_block",
             new Block(FabricBlockSettings.of(Material.AMETHYST).strength(4.0f).requiresTool()), ModItemGroup.GEMS);
