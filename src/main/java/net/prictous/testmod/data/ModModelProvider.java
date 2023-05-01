@@ -17,6 +17,15 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DS_RAW_TANZANITE_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TANZANITE_BLOCK);
+
+        blockStateModelGenerator.registerLog(ModBlocks.STRANGE_TREE_LOG).log(ModBlocks.STRANGE_TREE_LOG).wood(ModBlocks.STRANGE_TREE_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_STRANGE_TREE_LOG).log(ModBlocks.STRIPPED_STRANGE_TREE_LOG).wood(ModBlocks.STRIPPED_STRANGE_TREE_WOOD);
+
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STRANGE_TREE_PLANKS);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STRANGE_TREE_LEAVES);
+
+        blockStateModelGenerator.registerTintableCross(ModBlocks.STRANGE_TREE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override

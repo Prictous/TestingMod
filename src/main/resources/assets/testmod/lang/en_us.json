@@ -4,5 +4,15 @@
   "item.testmod.tanzanite_necklace": "Tanzanite Necklace",
   "itemgroup.gems": "Gems",
   "block.testmod.ds_raw_tanzanite": "Deepslate Raw Tanzanite Ore",
-  "block.testmod.tanzanite_block": "Tumbled Tanzanite Block"
+  "block.testmod.tanzanite_block": "Tumbled Tanzanite Block",
+  
+  "block.testmod.strange_tree_log": "Strange Tree Log",
+  "block.testmod.strange_tree_wood": "Strange Tree Wood",
+  "block.testmod.stripped_strange_tree_log": "Stripped Strange Tree Log",
+  "block.testmod.stripped_strange_tree_wood": "Stripped Strange Tree Wood",
+
+  "block.testmod.strange_tree_planks": "Strange Tree Planks",
+  "block.testmod.strange_tree_leaves": "Strange Tree Leaves",
+
+  "block.testmod.strange_tree_sapling": "Strange Tree Sapling"
 }
