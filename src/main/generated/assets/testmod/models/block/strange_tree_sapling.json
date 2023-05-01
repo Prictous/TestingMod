@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "testmod:block/strange_tree_sapling"
+  }
+}
