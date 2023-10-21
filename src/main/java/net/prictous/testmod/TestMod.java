@@ -4,9 +4,11 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.prictous.testmod.block.ModBlocks;
 import net.prictous.testmod.block.ModFlammableBlockRegistry;
+import net.prictous.testmod.block.entity.ModBlockEntities;
 import net.prictous.testmod.data.ModWorldGenerator;
 import net.prictous.testmod.item.ModItemGroup;
 import net.prictous.testmod.item.ModItems;
+import net.prictous.testmod.screen.ModScreenHandlers;
 import net.prictous.testmod.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,6 +24,9 @@ public class TestMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModWorldGeneration.generateModWorldGen();
+
+		ModBlockEntities.registerBlockEntities();
+		ModScreenHandlers.registerScreenHandlers();
 
 		ModFlammableBlockRegistry.registerFlammableBlocks();
 		StrippableBlockRegistry.register(ModBlocks.STRANGE_TREE_LOG, ModBlocks.STRIPPED_STRANGE_TREE_LOG);

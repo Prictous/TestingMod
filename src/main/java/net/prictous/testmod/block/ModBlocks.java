@@ -12,6 +12,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.prictous.testmod.TestMod;
+import net.prictous.testmod.block.custom.RockTumblerBlock;
 import net.prictous.testmod.item.ModItemGroup;
 import net.prictous.testmod.world.tree.StrangeTreeSaplingGenerator;
 
@@ -39,6 +40,9 @@ public class ModBlocks {
 
     public static final Block STRANGE_TREE_SAPLING = registerBlock("strange_tree_sapling",
             new SaplingBlock(new StrangeTreeSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(0.0f)));
+
+    public static final Block ROCK_TUMBLER = registerBlock("rock_tumbler",
+            new RockTumblerBlock(FabricBlockSettings.copyOf(Blocks.SMITHING_TABLE).nonOpaque().strength(3.0f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

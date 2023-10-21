@@ -28,6 +28,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.STRANGE_TREE_WOOD);
                         entries.add(ModBlocks.STRIPPED_STRANGE_TREE_LOG);
                         entries.add(ModBlocks.STRIPPED_STRANGE_TREE_WOOD);
+                        entries.add(ModBlocks.ROCK_TUMBLER);
                     }).build());
 
     public static void registerItemGroups() {

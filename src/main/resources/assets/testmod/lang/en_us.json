@@ -14,5 +14,6 @@
   "block.testmod.strange_tree_planks": "Strange Tree Planks",
   "block.testmod.strange_tree_leaves": "Strange Tree Leaves",
 
-  "block.testmod.strange_tree_sapling": "Strange Tree Sapling"
+  "block.testmod.strange_tree_sapling": "Strange Tree Sapling",
+  "block.testmod.rock_tumbler": "Rock Tumbler"
 }
