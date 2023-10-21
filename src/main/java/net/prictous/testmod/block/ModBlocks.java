@@ -38,7 +38,7 @@ public class ModBlocks {
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(1.0f).requiresTool()));
 
     public static final Block STRANGE_TREE_SAPLING = registerBlock("strange_tree_sapling",
-            new SaplingBlock(new StrangeTreeSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()));
+            new SaplingBlock(new StrangeTreeSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(0.0f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

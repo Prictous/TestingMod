@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:tumbled_tanzanite"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

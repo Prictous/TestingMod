@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:tumbled_tanzanite_from_raw_tanzanite_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }
