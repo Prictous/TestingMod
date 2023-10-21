@@ -42,7 +42,7 @@ public class ModBlocks {
             new SaplingBlock(new StrangeTreeSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(0.0f)));
 
     public static final Block ROCK_TUMBLER = registerBlock("rock_tumbler",
-            new RockTumblerBlock(FabricBlockSettings.copyOf(Blocks.SMITHING_TABLE).nonOpaque().strength(3.0f).requiresTool()));
+            new RockTumblerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque().strength(3.0f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
