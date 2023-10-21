@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "CGC",
+    "OSO"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "S": {
+      "item": "minecraft:smooth_stone"
+    },
+    "C": {
+      "item": "minecraft:sand"
+    },
+    "G": {
+      "item": "minecraft:grindstone"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "testmod:rock_tumbler",
+    "count": 1
+  }
+}
