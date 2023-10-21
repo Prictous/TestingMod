@@ -21,19 +21,8 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(TestMod.MOD_ID, name), item);
     }
 
-    public static void addItemsToItemGroup(){
-        addToItemGroup(ModItemGroup.GEMS, RAW_TANZANITE);
-        addToItemGroup(ModItemGroup.GEMS, TUMBLED_TANZANITE);
-        addToItemGroup(ModItemGroup.GEMS, TANZANITE_NECKLACE);
-    }
-
-    private static void addToItemGroup(ItemGroup group, Item item) {
-        ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
-    }
 
     public static void registerModItems() {
         TestMod.LOGGER.debug("Registering mod items for " + TestMod.MOD_ID);
-
-        addItemsToItemGroup();
     }
 }
