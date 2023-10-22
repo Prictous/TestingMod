@@ -17,6 +17,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DS_RAW_TANZANITE_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TANZANITE_BLOCK);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RAW_GARNET_ORE);
 
 
 

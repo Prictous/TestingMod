@@ -1,9 +1,10 @@
-// 1.20.2	2023-10-22T12:49:06.1303328	Test Mod/Model Definitions
+// 1.20.2	2023-10-22T17:12:48.8434673	Test Mod/Model Definitions
 a13c22a46bf28b8fb3b1e5cdba73958ba3244dd8 assets\testmod\models\block\stripped_strange_tree_log.json
 4135098b4d6ea9ce44d7167d9c0a86d08a7d380e assets\testmod\blockstates\strange_tree_sapling.json
 1b4e2df8407ff4039bf0f093457b5f9bb49d3745 assets\testmod\blockstates\tanzanite_block.json
 966fc87665be2951a0d142ff423fe84c5e2c099a assets\testmod\models\item\tumbled_tanzanite.json
 e6c5ae3784fe3bca427052865b3f2a00190dd491 assets\testmod\models\block\ds_raw_tanzanite.json
+180c0204d2af98568af6239e6ce818b9c8e172ae assets\testmod\models\item\rock_tumbler.json
 6f9d845a4032fe4a9a19300773aa8ad4a14d7c83 assets\testmod\blockstates\strange_tree_log.json
 f09f33f4e2bdd4310c6a2ec37d5579b6d839df1f assets\testmod\models\item\strange_tree_leaves.json
 960503d4ec417f39d56ccc7c2cc716d5c115f1ff assets\testmod\blockstates\stripped_strange_tree_wood.json
@@ -21,6 +22,7 @@ c47384f750834d88f82a4baeaa8408ca11074957 assets\testmod\models\item\ds_raw_tanza
 a754cd0628d615f96d25bc467d769f86b3ae6317 assets\testmod\models\item\strange_tree_sapling.json
 e8cd8edd81f557a84ab24bc92b8e7784815d7c75 assets\testmod\models\block\stripped_strange_tree_wood.json
 e554a49ce65e4319a6be973cf7118aff4aa12e7b assets\testmod\models\item\tanzanite_block.json
+59db3171d3a55e2f215fbddfa4dfbda928b4e478 assets\testmod\blockstates\rock_tumbler.json
 5ab1245d4029f7ed703095d07c3cc89226498c94 assets\testmod\blockstates\stripped_strange_tree_log.json
 8051d69c1f1b1b540f96450ed53ac4c33f4423cf assets\testmod\models\block\tanzanite_block.json
 7d7e59f9b133f58c70d4e48714e43904aa3e5bb9 assets\testmod\models\block\strange_tree_sapling.json

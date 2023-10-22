@@ -21,15 +21,18 @@ import java.util.List;
 public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> STRANGE_TREE_KEY = registerKey("strange_tree");
     public static final RegistryKey<ConfiguredFeature<?, ?>> TANZ_ORE_KEY = registerKey("tanzanite_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> GARN_ORE_KEY = registerKey("garnet_ore");
 
 
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
-        RuleTest stoneReplacables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
-        RuleTest deepslateReplacables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+        RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
+        RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
         List<OreFeatureConfig.Target> overworldTanzaniteOres =
-                List.of(OreFeatureConfig.createTarget(stoneReplacables, ModBlocks.DS_RAW_TANZANITE_ORE.getDefaultState()));
+                List.of(OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DS_RAW_TANZANITE_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> overworldGarnetOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.RAW_GARNET_ORE.getDefaultState()));
 
 
         register(context, STRANGE_TREE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
@@ -39,6 +42,7 @@ public class ModConfiguredFeatures {
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
                 new TwoLayersFeatureSize(1, 0, 2)).build());
         register(context, TANZ_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTanzaniteOres, 1));
+        register(context, GARN_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldGarnetOres, 10));
     }
 
 

@@ -19,6 +19,7 @@ import static net.prictous.testmod.world.ModConfiguredFeatures.registerKey;
 public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> STRANGE_TREE_PLACE_KEY = registerKey("strange_tree_placed");
     public static final RegistryKey<PlacedFeature> TANZANITE_DS_ORE_PLACE_KEY = registerKey("ds_tanzanite_placed");
+    public static final RegistryKey<PlacedFeature> GARNET_ORE_PLACE_KEY = registerKey("garnet_placed");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
@@ -27,6 +28,10 @@ public class ModPlacedFeatures {
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1,0.5f,2), ModBlocks.STRANGE_TREE_SAPLING));
 
         register(context, TANZANITE_DS_ORE_PLACE_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.TANZ_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(16,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(200))));
+
+        register(context, GARNET_ORE_PLACE_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.GARN_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(16,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(200))));
     }

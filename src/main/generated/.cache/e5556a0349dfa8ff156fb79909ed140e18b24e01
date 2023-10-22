@@ -1,9 +1,9 @@
-// 1.20.2	2023-10-22T12:49:06.1473296	Test Mod/Block Loot Tables
+// 1.20.2	2023-10-22T17:12:48.8594662	Test Mod/Block Loot Tables
 fa7b3bed9172ea3914122974ebbfaae3eddca98e data\testmod\loot_tables\blocks\strange_tree_planks.json
 77eb1db91fe5472a9804a96b03d314e6e59ce014 data\testmod\loot_tables\blocks\strange_tree_wood.json
 dbf5523819a123b73675915aae4638c4953b880b data\testmod\loot_tables\blocks\ds_raw_tanzanite.json
-75b130f48ca3721b7c729ff2c301f6e8ea170c4d data\testmod\loot_tables\blocks\strange_tree_sapling.json
 8b68f2337fd9157fa439df1917a7b533969c13da data\testmod\loot_tables\blocks\stripped_strange_tree_wood.json
+75b130f48ca3721b7c729ff2c301f6e8ea170c4d data\testmod\loot_tables\blocks\strange_tree_sapling.json
 48a771f68ae775734726567f2ac0ce947d3091c1 data\testmod\loot_tables\blocks\stripped_strange_tree_log.json
-f740ec0596d90e224d819cc45bba5103377c2219 data\testmod\loot_tables\blocks\strange_tree_log.json
 914bf4b73481e472f803c2e231d2d242400823f6 data\testmod\loot_tables\blocks\tanzanite_block.json
+f740ec0596d90e224d819cc45bba5103377c2219 data\testmod\loot_tables\blocks\strange_tree_log.json
