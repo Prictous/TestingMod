@@ -17,9 +17,12 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.RAW_TANZANITE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_TANZANITE);
                         entries.add(ModItems.TUMBLED_TANZANITE);
+                        entries.add(ModItems.RAW_GARNET);
+                        entries.add(ModItems.TUMBLED_GARNET);
                         entries.add(ModItems.TANZANITE_NECKLACE);
 
                         entries.add(ModBlocks.DS_RAW_TANZANITE_ORE);
+                        entries.add(ModBlocks.RAW_GARNET_ORE);
                         entries.add(ModBlocks.TANZANITE_BLOCK);
                         entries.add(ModBlocks.STRANGE_TREE_LEAVES);
                         entries.add(ModBlocks.STRANGE_TREE_LOG);

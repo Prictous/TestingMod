@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "testmod:ds_raw_tanzanite",
+    "testmod:raw_garnet_ore",
     "testmod:tanzanite_block"
   ]
 }

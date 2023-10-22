@@ -21,6 +21,10 @@ public class ModBlocks {
     public static final Block DS_RAW_TANZANITE_ORE = registerBlock("ds_raw_tanzanite",
         new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE).strength(2.0f).requiresTool(),
                 UniformIntProvider.create(3, 7)));
+
+    public static final Block RAW_GARNET_ORE = registerBlock("raw_garnet_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE).strength(2.0f).requiresTool(),
+                    UniformIntProvider.create(2, 5)));
     public static final Block TANZANITE_BLOCK = registerBlock("tanzanite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).strength(4.0f).requiresTool()));
 

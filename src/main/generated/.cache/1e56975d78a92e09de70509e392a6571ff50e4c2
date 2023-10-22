@@ -1,7 +1,5 @@
-// 1.20.1	2023-10-20T21:20:03.7529313	Test Mod/Recipes
-242f84d92926afbe3f7b28f392a064fb1554500a data\testmod\advancements\recipes\misc\tumbled_tanzanite_from_raw_tanzanite_stonecutting.json
-33911553b54d29f22c476df3526bf8384e708c57 data\testmod\recipes\tumbled_tanzanite_from_raw_tanzanite_stonecutting.json
-9c4119ebe26d9a0a80eae8f2464ad47a303ff66c data\testmod\advancements\recipes\decorations\tanzanite_block.json
+// 1.20.2	2023-10-22T12:49:06.1423307	Test Mod/Recipes
+dab7f8ca0ee16d2d4f3ab46f85316846b82159d2 data\testmod\advancements\recipes\decorations\tanzanite_block.json
 99b976a36d884c0b0c6a59da55a59b5feb7b5dc5 data\testmod\recipes\tumbled_tanzanite.json
-b66cdccabf96892e2d3b9cb32531e5fe9b259a13 data\testmod\advancements\recipes\building_blocks\tumbled_tanzanite.json
+0f78ba023a0383f226c7c18f47db5d6362707283 data\testmod\advancements\recipes\building_blocks\tumbled_tanzanite.json
 341286ded6f01bcccb74c9ef3193dafeb19adf31 data\testmod\recipes\tanzanite_block.json

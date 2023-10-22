@@ -2,6 +2,8 @@
   "item.testmod.raw_tanzanite": "Raw Tanzanite",
   "item.testmod.tumbled_tanzanite": "Tumbled Tanzanite",
   "item.testmod.tanzanite_necklace": "Tanzanite Necklace",
+  "item.testmod.raw_garnet": "Raw Garnet",
+  "item.testmod.tumbled_garnet": "Tumbled Garnet",
   "itemgroup.gems": "Gems",
   "block.testmod.ds_raw_tanzanite": "Deepslate Raw Tanzanite Ore",
   "block.testmod.tanzanite_block": "Tumbled Tanzanite Block",
@@ -15,5 +17,6 @@
   "block.testmod.strange_tree_leaves": "Strange Tree Leaves",
 
   "block.testmod.strange_tree_sapling": "Strange Tree Sapling",
-  "block.testmod.rock_tumbler": "Rock Tumbler"
+  "block.testmod.rock_tumbler": "Rock Tumbler",
+  "block.testmod.raw_garnet_ore": "Raw Garnet Ore"
 }
