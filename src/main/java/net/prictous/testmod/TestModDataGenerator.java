@@ -16,13 +16,13 @@ import net.prictous.testmod.world.ModPlacedFeatures;
 public class TestModDataGenerator implements DataGeneratorEntrypoint {
 
 
-    public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TANZANITE_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DS_RAW_TANZANITE_ORE);
-
-        blockStateModelGenerator.registerSimpleState(ModBlocks.ROCK_TUMBLER);
-    }
+//    public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+//
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TANZANITE_BLOCK);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DS_RAW_TANZANITE_ORE);
+//
+//        blockStateModelGenerator.registerSimpleState(ModBlocks.ROCK_TUMBLER);
+//    }
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();

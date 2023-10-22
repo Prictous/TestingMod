@@ -1,0 +1,12 @@
+{
+  "type" : "testmod:rock_tumbler",
+  "ingredients": [
+    {
+      "item": "testmod:raw_garnet"
+    }
+  ],
+  "output": {
+    "item": "testmod:tumbled_garnet",
+    "count": 1
+  }
+}

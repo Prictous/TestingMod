@@ -8,6 +8,7 @@ import net.prictous.testmod.block.entity.ModBlockEntities;
 import net.prictous.testmod.data.ModWorldGenerator;
 import net.prictous.testmod.item.ModItemGroup;
 import net.prictous.testmod.item.ModItems;
+import net.prictous.testmod.recipe.ModRecipes;
 import net.prictous.testmod.screen.ModScreenHandlers;
 import net.prictous.testmod.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
@@ -27,6 +28,8 @@ public class TestMod implements ModInitializer {
 
 		ModBlockEntities.registerBlockEntities();
 		ModScreenHandlers.registerScreenHandlers();
+
+		ModRecipes.registerRecipes();
 
 		ModFlammableBlockRegistry.registerFlammableBlocks();
 		StrippableBlockRegistry.register(ModBlocks.STRANGE_TREE_LOG, ModBlocks.STRIPPED_STRANGE_TREE_LOG);

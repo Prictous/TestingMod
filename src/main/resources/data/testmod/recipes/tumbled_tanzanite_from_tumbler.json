@@ -1,0 +1,12 @@
+{
+  "type" : "testmod:rock_tumbler",
+  "ingredients": [
+    {
+      "item": "testmod:raw_tanzanite"
+    }
+  ],
+  "output": {
+    "item": "testmod:tumbled_tanzanite",
+    "count": 1
+  }
+}
