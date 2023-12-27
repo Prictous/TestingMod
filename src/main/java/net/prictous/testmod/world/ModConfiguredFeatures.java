@@ -19,7 +19,7 @@ import net.prictous.testmod.block.ModBlocks;
 import java.util.List;
 
 public class ModConfiguredFeatures {
-    public static final RegistryKey<ConfiguredFeature<?, ?>> STRANGE_TREE_KEY = registerKey("strange_tree");
+
     public static final RegistryKey<ConfiguredFeature<?, ?>> TANZ_ORE_KEY = registerKey("tanzanite_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> GARN_ORE_KEY = registerKey("garnet_ore");
 
@@ -35,14 +35,9 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.RAW_GARNET_ORE.getDefaultState()));
 
 
-        register(context, STRANGE_TREE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
-                BlockStateProvider.of(ModBlocks.STRANGE_TREE_LOG),
-                new StraightTrunkPlacer(5, 6, 3),
-                BlockStateProvider.of(ModBlocks.STRANGE_TREE_LEAVES),
-                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
-                new TwoLayersFeatureSize(1, 0, 2)).build());
-        register(context, TANZ_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTanzaniteOres, 1));
-        register(context, GARN_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldGarnetOres, 10));
+
+        register(context, TANZ_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTanzaniteOres, 3));
+        register(context, GARN_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldGarnetOres, 3));
     }
 
 

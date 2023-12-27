@@ -11,8 +11,6 @@ import net.prictous.testmod.screen.RockTumblerScreen;
 public class TestModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.STRANGE_TREE_LEAVES, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.STRANGE_TREE_SAPLING, RenderLayer.getCutout());
 
         HandledScreens.register(ModScreenHandlers.ROCK_TUMBLER_SCREEN_HANDLER_SCREEN_HANDLER, RockTumblerScreen::new);
     }

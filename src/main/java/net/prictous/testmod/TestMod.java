@@ -32,7 +32,6 @@ public class TestMod implements ModInitializer {
 		ModRecipes.registerRecipes();
 
 		ModFlammableBlockRegistry.registerFlammableBlocks();
-		StrippableBlockRegistry.register(ModBlocks.STRANGE_TREE_LOG, ModBlocks.STRIPPED_STRANGE_TREE_LOG);
-		StrippableBlockRegistry.register(ModBlocks.STRANGE_TREE_WOOD, ModBlocks.STRIPPED_STRANGE_TREE_WOOD);
+
 	}
 }

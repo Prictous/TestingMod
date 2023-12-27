@@ -1,10 +1,6 @@
 {
   "replace": false,
   "values": [
-    "testmod:strange_tree_log",
-    "testmod:stripped_strange_tree_log",
-    "testmod:strange_tree_wood",
-    "testmod:stripped_strange_tree_wood",
-    "testmod:strange_tree_planks"
+
   ]
 }

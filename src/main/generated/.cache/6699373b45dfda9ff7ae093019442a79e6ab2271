@@ -1,7 +1,5 @@
-// 1.20.2	2023-10-22T17:12:48.8504664	Test Mod/testmod
-d630ff807da37f50c91d65f23956bbfa48c91b69 data\testmod\worldgen\configured_feature\tanzanite_ore.json
-647a57e799bba81c78355524223fd82d975aa3b1 data\testmod\worldgen\configured_feature\strange_tree.json
+// 1.20.2	2023-12-26T17:20:43.0307906	Test Mod/testmod
+0c0756565ed0075c02e16ccd493ef40d103b7eca data\testmod\worldgen\configured_feature\tanzanite_ore.json
 f7e9c5008a8bc6675118486417ff2122be8e2353 data\testmod\worldgen\placed_feature\ds_tanzanite_placed.json
 46e97d9b966319bb77e4fe8ceb0ff09737e52f0c data\testmod\worldgen\placed_feature\garnet_placed.json
-5037fcd4736eac5257fa6ab9d0be0ef6f94d0251 data\testmod\worldgen\placed_feature\strange_tree_placed.json
-9a37207ab0916cb405ecc0892839fba73dbe02ed data\testmod\worldgen\configured_feature\garnet_ore.json
+aa1ef253a8e62ee7ddbbcc1afa68261e2c04f954 data\testmod\worldgen\configured_feature\garnet_ore.json

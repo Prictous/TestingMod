@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "testmod:tumbled_tanzanite"
+  },
+  "base": {
+    "item": "minecraft:diamond"
+  },
+  "addition": {
+    "item": "minecraft:fire_charge"
+  },
+  "result": {
+    "item": "testmod:tanzanite_diamond_alloy"
+  }
+}

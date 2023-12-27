@@ -20,6 +20,8 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item TUMBLED_GARNET = registerItem("tumbled_garnet",
             new Item(new FabricItemSettings()));
+    public static final Item TANZANITE_DIAMOND_ALLOY = registerItem("tanzanite_diamond_alloy",
+            new Item(new FabricItemSettings()));
     public static final Item TANZANITE_NECKLACE = registerItem("tanzanite_necklace",
             new Item(new FabricItemSettings()));
     private static Item registerItem(String name, Item item) {

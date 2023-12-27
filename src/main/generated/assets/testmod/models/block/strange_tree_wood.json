@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "testmod:block/strange_tree_log",
-    "side": "testmod:block/strange_tree_log"
-  }
-}

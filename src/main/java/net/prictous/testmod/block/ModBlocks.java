@@ -14,7 +14,7 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.prictous.testmod.TestMod;
 import net.prictous.testmod.block.custom.RockTumblerBlock;
 import net.prictous.testmod.item.ModItemGroup;
-import net.prictous.testmod.world.tree.StrangeTreeSaplingGenerator;
+
 
 public class ModBlocks {
 
@@ -28,22 +28,6 @@ public class ModBlocks {
     public static final Block TANZANITE_BLOCK = registerBlock("tanzanite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).strength(4.0f).requiresTool()));
 
-    public static final Block STRANGE_TREE_LOG = registerBlock("strange_tree_log",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4.0f).requiresTool()));
-    public static final Block STRANGE_TREE_WOOD = registerBlock("strange_tree_wood",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(2.0f).requiresTool()));
-    public static final Block STRIPPED_STRANGE_TREE_LOG = registerBlock("stripped_strange_tree_log",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(2.0f).requiresTool()));
-    public static final Block STRIPPED_STRANGE_TREE_WOOD = registerBlock("stripped_strange_tree_wood",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).strength(2.0f).requiresTool()));
-
-    public static final Block STRANGE_TREE_PLANKS = registerBlock("strange_tree_planks",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0f).requiresTool()));
-    public static final Block STRANGE_TREE_LEAVES = registerBlock("strange_tree_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(1.0f).requiresTool()));
-
-    public static final Block STRANGE_TREE_SAPLING = registerBlock("strange_tree_sapling",
-            new SaplingBlock(new StrangeTreeSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(0.0f)));
 
     public static final Block ROCK_TUMBLER = registerBlock("rock_tumbler",
             new RockTumblerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque().strength(3.0f)));

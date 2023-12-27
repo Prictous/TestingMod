@@ -1,6 +1,8 @@
 package net.prictous.testmod.block.entity;
 
 import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerFactory;
+import net.fabricmc.fabric.api.transfer.v1.fluid.FluidVariant;
+import net.fabricmc.fabric.api.transfer.v1.storage.base.SingleVariantStorage;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
@@ -36,6 +38,8 @@ public class RockTumblerBlockEntity extends BlockEntity implements ExtendedScree
     protected final PropertyDelegate propertyDelegate;
     private int progress = 0;
     private int maxProgress = 72;
+
+
     public RockTumblerBlockEntity(BlockPos pos, BlockState state) {
         super(ModBlockEntities.ROCK_TUMBLER_BLOCK_ENTITY, pos, state);
         this.propertyDelegate = new PropertyDelegate() {

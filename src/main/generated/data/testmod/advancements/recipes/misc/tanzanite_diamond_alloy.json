@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "testmod:tanzanite_diamond_alloy"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tumbled_tanzanite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "testmod:tumbled_tanzanite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tumbled_tanzanite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "testmod:tanzanite_diamond_alloy"
+    ]
+  },
+  "sends_telemetry_event": false
+}

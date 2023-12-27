@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "testmod:block/strange_tree_sapling"
+    "layer0": "testmod:item/tanzanite_diamond_alloy"
   }
 }
